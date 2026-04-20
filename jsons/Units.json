@@ -50,7 +50,7 @@
   "uniqueTo": "Rome",
   "replaces": "Tank",
   "movement": 7,
-  "strength": 100,
+  "strength": 25,
   "cost": 200,
   "requiredTech": "Combustion",
   "promotions": ["Shock II"],
