@@ -85,7 +85,7 @@
   "strength": 74,
   "cost": 230,
   "requiredTech": "Iron Working",
-  "promotions": ["Cover III"],
+  "promotions": ["Cover II"],
   "uniques": [
     "[+10]% Strength <when attacking>",
     "[+15]% Strength <vs [Melee] units>"
