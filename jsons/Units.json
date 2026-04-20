@@ -76,4 +76,19 @@
     "[+2]% Strength <vs [Gun] units>"
   ]
 }
+{
+  "name": "Bangrajan army",
+  "unitType": "Melee",
+  "uniqueTo": "Siam",
+  "replaces": "Swordsman",
+  "movement": 2,
+  "strength": 74,
+  "cost": 230,
+  "requiredTech": "Iron Working",
+  "promotions": ["Cover III"],
+  "uniques": [
+    "[+10]% Strength <when attacking>",
+    "[+15]% Strength <vs [Melee] units>"
+  ]
+}
 ]
