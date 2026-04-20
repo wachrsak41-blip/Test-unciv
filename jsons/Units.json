@@ -121,4 +121,21 @@
     "[+400]% Strength <vs [Mounted] units>"
   ]
   }
+  {
+  "name": "88 flanks",
+  "unitType": "Siege",
+  "uniqueTo": "Germany",
+  "replaces": "Artillery",
+  "movement": 2,
+  "strength": 25,
+  "rangedStrength": 34,
+  "range": 3,
+  "cost": 750,
+  "requiredTech": "Dynamite",
+  "promotions": ["Barrage III"],
+  "uniques": [
+    "[+50]% Strength <vs [Air] units>",
+    "[+40]% Strength <vs [Armor] units>"
+  ]
+  }
 ]
