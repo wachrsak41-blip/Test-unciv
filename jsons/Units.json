@@ -104,4 +104,21 @@
   "requiredTech": "Rocketry",
   "requiredResource": "Uranium"
   }
+  {
+  "name": "Phasang peanton",
+  "unitType": "Ranged",
+  "uniqueTo": "Siam",
+  "replaces": "Musketman",
+  "movement": 2,
+  "strength": 25,
+  "rangedStrength": 90,
+  "range": 4,
+  "cost": 900,
+  "requiredTech": "Gunpowder",
+  "requiredResource": "Iron",
+  "promotions": ["Accuracy II"],
+  "uniques": [
+    "[+400]% Strength <vs [Mounted] units>"
+  ]
+  }
 ]
