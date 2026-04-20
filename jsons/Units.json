@@ -40,9 +40,9 @@
   "requiredTech": "Combustion",
   "promotions": ["Blitz"],
   "uniques": [
-    "Bonus when attacking [20]",
-    "+12% Strength vs [Melee] units",
-    "+12% Strength vs [Gun] units"
+  "[+20] Strength when attacking",
+  "[+12] Strength vs [Melee] units",
+  "[+12] Strength vs [Gun] units"
   ]
 	  }
 ]
