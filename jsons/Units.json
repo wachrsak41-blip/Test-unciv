@@ -54,7 +54,8 @@
   "cost": 200,
   "requiredTech": "Combustion",
   "promotions": ["Shock II"],
-  "uniques": [
+   "attackSound": "shot"
+     "uniques": [
     "[+2]% Strength <when attacking>",
     "[+50]% Strength <vs [Melee] units>",
     "[+50]% Strength <vs [Gun] units>"
