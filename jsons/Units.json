@@ -1,19 +1,19 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+  {
+    "name": "Phasers",
+    "unitType": "Ranged",
+    "uniqueTo": "Aliens",
+    "replaces": "Machine Gun",
+    "movement": 2,
+    "strength": 90,
+    "rangedStrength": 36,
+    "range": 2,
+    "cost": 500,
+    "requiredTech": "Ballistics",
+    "requiredResource": "Uranium",
+    "promotions": ["Logistics","Accuracy I"],
+    "attackSound": "phasers"
+  },
   {
     "name": "new unit",
     "unitType": "Ranged",
@@ -27,22 +27,21 @@
     "requiredTech": "Ballistics",
     "requiredResource": "Uranium",
     "promotions": ["Logistics", "Accuracy I"]
+  },
+  {
+    "name": "A7v",
+    "unitType": "Armor",
+    "uniqueTo": "Germany",
+    "replaces": "Tank",
+    "movement": 4,
+    "strength": 900,
+    "cost": 1800,
+    "requiredTech": "Combustion",
+    "promotions": ["Blitz"],
+    "uniques": [
+      "[+20] Strength when attacking",
+      "[+12] Strength vs [Melee] units",
+      "[+12] Strength vs [Gun] units"
+    ]
   }
-      {	
-
-  "name": "A7v",
-  "unitType": "Armor",
-  "uniqueTo": "Germany",
-  "replaces": "Tank",
-  "movement": 4,
-  "strength": 900,
-  "cost": 1800,
-  "requiredTech": "Combustion",
-  "promotions": ["Blitz"],
-  "uniques": [
-  "[+20] Strength when attacking",
-  "[+12] Strength vs [Melee] units",
-  "[+12] Strength vs [Gun] units"
-  ]
-	  }
 ]
