@@ -91,4 +91,17 @@
     "[+15]% Strength <vs [Melee] units>"
   ]
 }
+  {
+  "name": "R-7",
+  "unitType": "Ranged",
+  "uniqueTo": "Russia",
+  "replaces": "Nuclear Missile",
+  "movement": 5,
+  "strength": 50,
+  "rangedStrength": 200,
+  "range": 10,
+  "cost": 2000,
+  "requiredTech": "Rocketry",
+  "requiredResource": "Uranium"
+  }
 ]
