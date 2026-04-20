@@ -111,7 +111,7 @@
   "replaces": "Musketman",
   "movement": 2,
   "strength": 25,
-  "rangedStrength": 90,
+  "rangedStrength": 40,
   "range": 4,
   "cost": 900,
   "requiredTech": "Gunpowder",
