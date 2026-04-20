@@ -44,20 +44,20 @@
   "[+12]% Strength <vs [Gun] units>"
     ]
   }
-   {   
-    "name": "L3",
-		"unitType": "Armor",
-		"uniqueTo": "Rome",
-		"replaces": "Tank",
-		"movement": 7,
-		"strength": 100,
-		"range": 1,
-		"cost": 200,
-		"requiredTech": "Combustion",
-		"promotions":["Shock II"]
-		"uniques": [
-  "[+2]% Strength <when attacking>",
-  "[+50]% Strength <vs [Melee] units>",
-  "[+50]% Strength <vs [Gun] units>"
-  }
+   {
+  "name": "L3",
+  "unitType": "Armor",
+  "uniqueTo": "Rome",
+  "replaces": "Tank",
+  "movement": 7,
+  "strength": 100,
+  "cost": 200,
+  "requiredTech": "Combustion",
+  "promotions": ["Shock II"],
+  "uniques": [
+    "[+2]% Strength <when attacking>",
+    "[+50]% Strength <vs [Melee] units>",
+    "[+50]% Strength <vs [Gun] units>"
+  ]
+   }
 ]
