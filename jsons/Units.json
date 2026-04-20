@@ -60,4 +60,20 @@
     "[+50]% Strength <vs [Gun] units>"
   ]
    }
+{
+  "name": "charb1",
+  "unitType": "Armor",
+  "uniqueTo": "France",
+  "replaces": "Tank",
+  "movement": 3,
+  "strength": 54,
+  "cost": 560,
+  "requiredTech": "Combustion",
+  "promotions": ["Drill II"],
+  "uniques": [
+    "[+5]% Strength <when attacking>",
+    "[+15]% Strength <vs [Melee] units>",
+    "[+2]% Strength <vs [Gun] units>"
+  ]
+}
 ]
