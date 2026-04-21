@@ -213,5 +213,20 @@
     "attackSound": "machinegun",
     "uniques": ["[+95]% Strength <vs [Gunpowder] units>","[-75]% Strength <vs [Armor] units>",]
   }
+  {
+    "name": "Hanthawaddy soilder",
+    "unitType": "Sword",
+    "uniqueTo": "Maynmar",
+    "replaces": "Pikeman",
+    "movement": 3,
+    "strength": 20,
+    "cost": 450,
+    "requiredTech": "Civil Service",
+    "promotions": ["Drill I"],
+    "attackSound": "whoosh",
+    "uniques": ["[+15]% Strength <vs [Sword] units>"],
+    "upgradesTo": "Musketman",
+  }
 ]
+
 
