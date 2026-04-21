@@ -161,7 +161,7 @@
   "uniqueTo": "China",
   "replaces": "Modern Armor",
   "movement": 4,
-  "strength": 58,
+  "strength": 65,
   "cost": 850,
   "requiredTech": "Combined Arms",
   "promotions": ["Shock I", "Shock II"],
