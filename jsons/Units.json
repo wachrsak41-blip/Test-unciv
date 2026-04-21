@@ -83,7 +83,7 @@
   "uniqueTo": "Siam",
   "replaces": "Swordsman",
   "movement": 2,
-  "strength": 74,
+  "strength": 42,
   "cost": 230,
   "requiredTech": "Iron Working",
   "promotions": ["Cover II"],
@@ -139,4 +139,21 @@
     "[+40]% Strength <vs [Armor] units>"
   ]
   }
+{
+  "name": "Sand Soldier",
+  "unitType": "Gunpowder",
+  "uniqueTo": "Ottoman",
+  "replaces": "Great War Infantry",
+  "movement": 1,
+  "strength": 45,
+  "cost": 200,
+  "requiredTech": "Replaceable Parts",
+  "promotions": ["Cover I", "Cover II"],
+  "attackSound": "machinegun",
+  "uniques": [
+    "[+75]% strength <when defending>",
+    "[-35]% strength <when attacking>"
+  ]
+}
 ]
+
