@@ -228,8 +228,8 @@
     "upgradesTo": "Musketman",
   }
   {
-    "name": "Metropolitan Police"
-    "unitType": "Police"
+    "name": "Metropolitan Police",
+    "unitType": "Police",
     "movement": 4,
     "strength": 45,
     "cost": 450,
