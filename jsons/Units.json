@@ -155,5 +155,20 @@
   "[-35]% Strength <when attacking>"
   ]
 }
+{
+  "name": "VT4",
+  "unitType": "Armor",
+  "uniqueTo": "China",
+  "replaces": "Modern Armor",
+  "movement": 4,
+  "strength": 58,
+  "cost": 850,
+  "requiredTech": "Combined Arms",
+  "promotions": ["Shock I", "Shock II"],
+  "uniques": [
+    "[+10]% Strength <vs [Gunpowder] units>",
+    "[+20]% Strength <vs [Siege] units>"
+  ]
+}
 ]
 
