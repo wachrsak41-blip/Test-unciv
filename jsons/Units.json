@@ -118,7 +118,7 @@
   "requiredTech": "Gunpowder",
   "requiredResource": "Iron",
   "promotions": ["Accuracy II"],
-  "attacksound": "cannon",
+  "attackSound": "cannon",
     "uniques": [
     "[+400]% Strength <vs [Mounted] units>"
   ]
