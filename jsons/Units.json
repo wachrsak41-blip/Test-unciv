@@ -200,5 +200,18 @@
   ],
   "attackSound": "shot",
 },
+  {
+    "name": "MG42 man",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Germany",
+    "replaces": "Machine gun",
+    "movement": 2,
+    "strength": 55,
+    "cost": 675,
+    "requiredTech": "Ballistics",
+    "promotions": ["Shock I", "Shock II"],
+    "attackSound": "machine gun",
+    "uniques": ["[+95]% Strength <vs [Gunpowder] units>","[-75]% Strength <vs [Armored] units>",]
+  }
 ]
 
