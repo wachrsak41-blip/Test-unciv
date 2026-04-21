@@ -37,4 +37,41 @@
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
 	}
+		{
+		"name": "Maynmar",
+		"leaderName": "Burengnong",
+		"adjective": ["King"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Welcome to my kingdom",
+		"startIntroPart2": "Hmm",
+		"declaringWar": "You Foll.Ready For YOU DEAD!!",
+		"attacked": "That the best?",
+		"defeated": "How is it possible.You too strong.",
+		"introduction": "Welcome the great time is coming.",
+		
+		"neutralHello": "How are you doing?",
+		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "Get out!!",
+		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"denounced": "The accusations of primitive lifeforms are beneath us.",
+		"declaringfriendship": "Let us become like friends!",
+
+		"outerColor": [19,19,19],
+		"innerColor": [255,250,250],
+		"unique": "MANIFEST_DESTINY",
+		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
+			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		}
 ]
