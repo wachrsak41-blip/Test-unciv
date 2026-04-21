@@ -1,10 +1,10 @@
-[
-  {
-    "name": "M16 Program",
-    "cost": 1200,
-    "row": 2,
-    "column": 11,
-    "prerequisites": ["Replaceable Parts"],
-    "era": "Modern"
-  }
-]
+{
+  "name": "M16 Program",
+  "cost": 1200,
+  "row": 2,
+  "column": 11,
+  "prerequisites": ["Replaceable Parts"],
+  "era": "Modern",
+  "quote": "...",
+  "uniques": []
+}
