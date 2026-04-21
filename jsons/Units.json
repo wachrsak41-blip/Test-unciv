@@ -83,7 +83,7 @@
   "uniqueTo": "Siam",
   "replaces": "Swordsman",
   "movement": 2,
-  "strength": 42,
+  "strength": 22,
   "cost": 230,
   "requiredTech": "Iron Working",
   "promotions": ["Cover II"],
