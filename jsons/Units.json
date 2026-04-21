@@ -142,7 +142,7 @@
 {
   "name": "Sand Soldier",
   "unitType": "Gunpowder",
-  "uniqueTo": "Ottomans",
+  "uniqueTo": "Arabia",
   "replaces": "Great War Infantry",
   "movement": 1,
   "strength": 45,
