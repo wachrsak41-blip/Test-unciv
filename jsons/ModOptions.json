@@ -1,3 +1,7 @@
 {
-  "isBaseRuleset": false
+  "isBaseRuleset": false,
+  "techsToRemove": [],
+  "unitsToRemove": [],
+  "buildingsToRemove": [],
+  "nationsToRemove": []
 }
