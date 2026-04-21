@@ -1,3 +1,4 @@
+[
 {
   "name": "M16 Program",
   "cost": 1200,
@@ -6,3 +7,4 @@
   "prerequisites": ["Replaceable Parts"],
   "era": "Modern"
 }
+]
