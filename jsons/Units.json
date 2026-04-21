@@ -151,8 +151,7 @@
   "promotions": ["Cover I", "Cover II"],
   "attackSound": "machinegun",
   "uniques": [
-    "[+75]% strength <when defending>",
-    "[-35]% strength <when attacking>"
+    "[+75]% strength <when defending>"
   ]
 }
 ]
