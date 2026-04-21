@@ -179,7 +179,7 @@
   "movement": 2,
   "strength": 60,
   "cost": 390,
-  "requiredTech": "Plastic",
+  "requiredTech": "Plastics",
   "promotions": ["Cover I"],
   "attackSound": "shot",
   "uniques": ["[+75]% Strength <when fighting in [Hills] tiles>"]
