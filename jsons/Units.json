@@ -186,7 +186,7 @@
   }
 {
   "name": "M16 Rifleman",
-  "unitType": "Gun",
+  "unitType": "Gunpowder",
   "uniqueTo": "America",
   "replaces": "Infantry",
   "movement": 2,
