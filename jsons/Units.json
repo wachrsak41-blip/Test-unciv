@@ -204,7 +204,7 @@
     "name": "MG42 man",
     "unitType": "Gunpowder",
     "uniqueTo": "Germany",
-    "replaces": "Machine gun",
+    "replaces": "Machine Gun",
     "movement": 2,
     "strength": 55,
     "cost": 675,
