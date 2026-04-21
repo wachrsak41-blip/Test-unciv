@@ -235,7 +235,7 @@
     "cost": 450,
     "requiredTech": "Rifling",
     "attackSound": "shot",
-    "uniques": ["[+35]% Strength <vs [Melee]>]
+    "uniques": ["[+35]% Strength <vs [Melee] units>"]
   }
 ]
 
