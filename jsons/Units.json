@@ -184,5 +184,21 @@
   "attackSound": "shot",
   "uniques": ["[+75]% Strength <when fighting in [Hills] tiles>"]
   }
+{
+  "name": "M16 Rifleman",
+  "unitType": "Gun",
+  "uniqueTo": "America",
+  "replaces": "Infantry",
+  "movement": 2,
+  "strength": 75,
+  "cost": 400,
+  "requiredTech": "M16 Program",
+  "promotions": ["Drill I"],
+  "uniques": [
+    "[+15]% Strength <when attacking>",
+    "[+20]% Strength <vs [Melee] units>"
+  ],
+  "attackSound": "shot"
+}
 ]
 
