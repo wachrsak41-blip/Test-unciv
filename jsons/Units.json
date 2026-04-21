@@ -118,7 +118,8 @@
   "requiredTech": "Gunpowder",
   "requiredResource": "Iron",
   "promotions": ["Accuracy II"],
-  "uniques": [
+  "attacksound":"cannon"
+    "uniques": [
     "[+400]% Strength <vs [Mounted] units>"
   ]
   }
@@ -170,5 +171,18 @@
     "[+20]% Strength <vs [Siege] units>"
   ]
 }
+  {
+  "name": "Viet Cong",
+  "unitType": "Gunpowder",
+  "uniqueTo": "Hanoi",
+  "replaces": "Infantry",
+  "movement": 2,
+  "strength": 60,
+  "cost": 390,
+  "requiredTech": "Plastic",
+  "promotions": ["Cover I"],
+  "attackSound": "shot",
+  "uniques": ["[+75]% Strength <when fighting in [Hills] tiles>"]
+  }
 ]
 
