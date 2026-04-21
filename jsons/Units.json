@@ -50,7 +50,7 @@
   "uniqueTo": "Rome",
   "replaces": "Tank",
   "movement": 7,
-  "strength": 25,
+  "strength": 50,
   "cost": 200,
   "requiredTech": "Combustion",
   "promotions": ["Shock II"],
@@ -210,8 +210,8 @@
     "cost": 675,
     "requiredTech": "Ballistics",
     "promotions": ["Shock I", "Shock II"],
-    "attackSound": "machine gun",
-    "uniques": ["[+95]% Strength <vs [Gunpowder] units>","[-75]% Strength <vs [Armored] units>",]
+    "attackSound": "machinegun",
+    "uniques": ["[+95]% Strength <vs [Gunpowder] units>","[-75]% Strength <vs [Armor] units>",]
   }
 ]
 
