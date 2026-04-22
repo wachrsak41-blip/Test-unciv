@@ -20,10 +20,10 @@ jobs:
         run: java -cp packer.jar com.badlogic.gdx.tools.texturepacker.TexturePacker Images/ Images/ game
 
       - name: Commit Atlas
-  run: |
-    rm -f Unciv.jar Unciv.jar.1 hs_err_pid*.log GameSettings.json
-    git config user.email "action@github.com"
-    git config user.name "GitHub Action"
-    git add .
-    git commit -m "Auto-generate atlas" || echo "No changes"
-    git push
+        run: |
+          rm -f packer.jar Unciv.jar.1 hs_err_pid*.log GameSettings.json
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add .
+          git commit -m "Auto-generate atlas" || echo "No changes"
+          git push
