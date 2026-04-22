@@ -18,8 +18,8 @@ jobs:
 
       - name: Create Atlas
         run: |
-          java -cp packer.jar com.badlogic.gdx.tools.texturepacker.TexturePacker Images/UnitIcons/ Images/ UnitIcons
-          java -cp packer.jar com.badlogic.gdx.tools.texturepacker.TexturePacker Images/UnitImages/ Images/ UnitImages
+          java -cp packer.jar com.badlogic.gdx.tools.texturepacker.TexturePacker Images/UnitIcons/ Images/ UnitIcons --filterMin MipMapLinearLinear --filterMag MipMapLinearLinear
+          java -cp packer.jar com.badlogic.gdx.tools.texturepacker.TexturePacker Images/UnitImages/ Images/ UnitImages --filterMin MipMapLinearLinear --filterMag MipMapLinearLinear
 
       - name: Commit Atlas
         run: |
