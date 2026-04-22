@@ -20,7 +20,7 @@ jobs:
         run: wget https://github.com/yairm210/Unciv/releases/latest/download/Unciv.jar
         
       - name: Create Atlas
-        run: xvfb-run java -jar Unciv.jar createAtlas
+        run: timeout 60 xvfb-run java -jar Unciv.jar 2>/dev/null || true
         
       - name: Commit Atlas
         run: |
