@@ -237,6 +237,21 @@
     "attackSound": "shot",
     "uniques": ["[+35]% Strength <vs [Melee] units>"]
   }
+  {
+    "name": "T34 58",
+    "unitType": "Armor",
+    "uniqueTo": "Russia",
+    "replaces": "Tank",
+    "movement": 6,
+    "strength": 65,
+    "cost": 850,
+    "requiredTech": "Combustion",
+    "obsoleteTech": "Combined Arms",
+    "promotions": ["Shock"],
+    "uniques":["[+25]% Strength <vs [Armor] units>","[+30]% Strength <vs [Armored] units>"],
+    "upgradesTo":"Modern Armor",
+    "attackSound": "bombing"
+}
 ]
 
 
