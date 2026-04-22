@@ -6,24 +6,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
-          
+
       - name: Install virtual display
         run: sudo apt-get install -y xvfb
-          
+
       - name: Download Unciv
         run: wget https://github.com/yairm210/Unciv/releases/latest/download/Unciv.jar
-        
+
       - name: Create Atlas
-        run: timeout 60 xvfb-run java -jar Unciv.jar 2>/dev/null || true
-        
+        run: timeout 60 xvfb-run java -Djava.awt.headless=true -jar Unciv.jar 2>/dev/null || true
+
       - name: Commit Atlas
         run: |
+          rm -f Unciv.jar hs_err_pid*.log GameSettings.json
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
           git add .
