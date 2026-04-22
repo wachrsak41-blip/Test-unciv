@@ -246,8 +246,8 @@
     "strength": 65,
     "cost": 850,
     "requiredTech": "Combustion",
-    "obsoleteTech": "Combined Arms",
-    "promotions": ["Shock"],
+    "obsoleteTech": "Lasers",
+    "promotions": ["Shock I"],
     "uniques":["[+25]% Strength <vs [Armor] units>","[+30]% Strength <vs [Armored] units>"],
     "upgradesTo":"Modern Armor",
     "attackSound": "bombing"
