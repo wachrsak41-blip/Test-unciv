@@ -17,7 +17,9 @@ jobs:
         run: wget https://github.com/yairm210/Unciv/releases/latest/download/Unciv.jar -O packer.jar
 
       - name: Create Atlas
-        run: java -cp packer.jar com.badlogic.gdx.tools.texturepacker.TexturePacker Images/ Images/ game
+        run: |
+          java -cp packer.jar com.badlogic.gdx.tools.texturepacker.TexturePacker Images/UnitIcons/ Images/ UnitIcons
+          java -cp packer.jar com.badlogic.gdx.tools.texturepacker.TexturePacker Images/UnitImages/ Images/ UnitImages
 
       - name: Commit Atlas
         run: |
